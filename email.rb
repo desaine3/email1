@@ -20,4 +20,4 @@ password = ask("Please enter your password: ") {|q| q.echo = false}
 Pony.options = {:via => 'smtp', :via_options => via_options.merge({:password => password, :user_name => user_name})}
 
 # to actually send the email
-# Pony.mail(:to => "e@example.com", :subject => "Woo email!", :body => "Isn't this great?")
+Pony.mail(:to => "contact@ticklo.com", :subject => "Hello!!! Woo email!", :body => "Im learning how to send emials via Ruby, using a pony gem :) Hope you like this.. Welcome to delete this email :) Sexciiii  ")
